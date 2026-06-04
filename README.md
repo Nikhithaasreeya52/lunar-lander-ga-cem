@@ -44,8 +44,11 @@ The achieved reward exceeds the commonly accepted solved threshold of 200.
 - NumPy
 - Gymnasium
 - Box2D
-
-## Training
+## training from Scratch
+```bash
+python3 train_agent.py --train
+```
+## Training with warm start 
 
 ```bash
 python3 train_agent.py --train --filename best_policy2.npy --warm_start best_policy.npy
