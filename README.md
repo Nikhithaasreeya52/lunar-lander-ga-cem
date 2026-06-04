@@ -48,13 +48,13 @@ The achieved reward exceeds the commonly accepted solved threshold of 200.
 ## Training
 
 ```bash
-python3 train_agent.py --train --filename less_luck.npy --warm_start best_trainone.npy
+python3 train_agent.py --train --filename best_policy2.npy --warm_start best_policy.npy
 ```
 
 ## Evaluation
 
 ```bash
-python3 evaluate_agent.py --filename less_luck.npy --policy_module my_policy
+python3 evaluate_agent.py --filename best_policy.npy --policy_module my_policy
 ```
 
 ## Future Improvements
